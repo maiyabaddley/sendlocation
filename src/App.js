@@ -4,9 +4,9 @@ import Pusher from 'pusher'
 import './App.css'
 
 var pusher = new Pusher({
-  appId: '974821',
-  key: '7c9c3c1e2518fe3ab82b',
-  secret: '88a52e2c6545ff746078',
+  appId: '1001976',
+  key: 'c89ddfcb850d146a202a',
+  secret: 'b4dc6883981a88f0f09a',
   cluster: 'us3',
   encrypted: true,
 })
