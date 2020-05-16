@@ -14,7 +14,7 @@ var pusher = new Pusher({
 function App() {
   var options = {
     enableHighAccuracy: true,
-    timeout: 5000,
+    timeout: 50000,
     maximumAge: 0,
   }
 
@@ -26,9 +26,9 @@ function App() {
     console.log(`Longitude: ${crd.longitude}`)
     console.log(`More or less ${crd.accuracy} meters.`)
 
-    pusher.trigger('location', 'latlng', {
-      message: crd,
-    })
+    fetch(
+      `https://send-location.wl.r.appspot.com/pushlocation?lat=${crd.latitude}&lng=${crd.longitude}`,
+    )
   }
 
   function error(err) {
