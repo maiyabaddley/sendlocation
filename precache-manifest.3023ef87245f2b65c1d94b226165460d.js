@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3408eab603266c1641ec24287c59755",
+    "revision": "96d2970c35de214022be5b0819c4c204",
     "url": "/sendlocation/index.html"
   },
   {
-    "revision": "60dfda359e743d077d5f",
+    "revision": "20b390850d7df5f7ae8d",
     "url": "/sendlocation/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sendlocation/static/js/2.50be9698.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60dfda359e743d077d5f",
-    "url": "/sendlocation/static/js/main.7967c1e3.chunk.js"
+    "revision": "20b390850d7df5f7ae8d",
+    "url": "/sendlocation/static/js/main.7e944ab2.chunk.js"
   },
   {
     "revision": "ab6dafb3aa6725a6d441",
